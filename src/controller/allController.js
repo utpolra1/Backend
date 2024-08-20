@@ -46,7 +46,6 @@ const productSearching = async (req, res) => {
 const sortingProduct = async (req, res) => {
     try {
         const sortOrder = parseFloat(req.query.sortOrder); 
-        // console.log(sortOrder)
         // 1 for Low to High, -1 for High to Low
         let sortObj = {};
         if (sortOrder )
