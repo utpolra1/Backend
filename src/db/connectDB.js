@@ -28,9 +28,6 @@ const connectDB = async() => {
     await mongoose.connect(mongoUrl, {dbName:process.env.DB_NAME});
     console.log("connecting to database");
 
-    // {**mongodb compus connecturl**}
-    // await mongoose.connect('mongodb://localhost:27017',{ dbName: "homifyDB"})
-    // console.log("connected to database");
 };
 
 module.exports= connectDB;
