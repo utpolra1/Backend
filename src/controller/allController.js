@@ -122,7 +122,6 @@ const getAllData = async (req, res) => {
     try {
         const allGetData = await productsModel.find();
         res.status(200).json(allGetData);
-        // res.send(allGetData).status(200);
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
