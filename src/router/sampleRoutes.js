@@ -23,9 +23,5 @@ sampleRoute.get('/filterProducts', filterProducts);
 // productsPagination Api
 sampleRoute.get('/productsPagination', productsPagination);
 
-// //GETSingleData/:id
-// sampleRoute.get('/getSingleData/:id', getSingleData);
-
-
 
 module.exports=sampleRoute;
