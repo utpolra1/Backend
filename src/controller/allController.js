@@ -111,7 +111,6 @@ const filterProducts = async (req, res) => {
 const productsPagination = async (req,res) =>{
     try {
         const total = await productsModel.estimatedDocumentCount();
-        // console.log("total Product : ",total);
         res.send({total})
     } catch (error) {
         res.status(500).json({ message: error.message });
