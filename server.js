@@ -10,7 +10,7 @@ const port = process.env.PORT || 7000;
 
 //middleare
 app.use(cors({
-    origin:['https://e-commerce-project-batch9.web.app','http://localhost:5173'],
+    origin:['https://e-commerce-project-batch9.web.app'],
     credentials:true
   }));
   app.use(express.json());
