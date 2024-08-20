@@ -64,7 +64,6 @@ const sortingProduct = async (req, res) => {
 // *Sorting API with  Date sorting
 const sortingProductDate = async (req, res) => {
     const sortDate = req.query.sortDate === "asc" ? 1 : -1;
-    // console.log(sortDate)
     try {
         // ডাটাবেস থেকে Date অনুযায়ী ডাটা সর্ট করে আনা
         const sortedProductsData = await productsModel.find().sort({creationDate: sortDate});
