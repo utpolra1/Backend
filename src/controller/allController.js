@@ -16,20 +16,6 @@ const productCreate = async (req, res) => {
 };
 
 
-//*productSearching all Controller
-// const productSearchingg = async (req, res) => {
-//     try {
-      
-//         const result = await productsModel.find(req.query);
-//         // console.log(result);
-//         res.status(200).send(result);
-
-//       } catch (error) {
-//         res.status(500).send(error.message);
-//       }
-// };
-
- //*productSearching  single Controller
 const productSearching = async (req, res) => {
     try {
        

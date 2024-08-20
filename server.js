@@ -23,7 +23,7 @@ app.use('/api', sampleRoute);
 
 
 app.get('/', (req, res) => {
-    res.send('Server site runing...........😍🐤')
+    res.send('Server site runing..........')
 });
 
 // handling all (get,post,update,delete.....) unhandled routes
